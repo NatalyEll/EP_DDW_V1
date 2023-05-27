@@ -1,0 +1,97 @@
+*  { font-family: arial; margin: 0}
+h1 { text-align: center; }
+body > p  { text-align: justify; margin: 0 10px; }
+#principal { width: 1000px; height: 1000px; background-color:white; margin-right: 250px; margin-left: 250px;}
+#caja1 {font-size: 20px;color: rgb(107, 52, 7);font-family: fantasy;font-weight: bold; float: left;}
+Header.logo{
+    color: bisque;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+header nav {
+    float: right;
+    line-height: 200px;
+}
+header nav a {
+    display: inline-block;
+    color: brown;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    }
+header nav a :hover{
+    background-color: chocolate;
+    border-radius: 50px;
+}
+#caja3 {font-size: 20px;color: black; font-weight: bold; top: 120px;right: 220px;
+display: flex;
+justify-content: left;}
+.main{
+width: 75%;
+float: left;
+padding: 15px;
+border: 1px solid red;
+}
+.btn {
+    background-color: #4CAF50; 
+    border: 2px solid gray;
+    color: rgb(241, 234, 234);
+    padding: 15px 32px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
+    display:inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    width: 200px;
+    height: 95px;
+    border-radius: 10%;
+    }
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 1px solid rgb(245, 242, 242);
+    padding: 15px;
+    background-color: darkkhaki;
+}
+.menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    color: white;
+    background-color: darkolivegreen;
+}
+.main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(245, 242, 242);
+    color: white;
+    background-color: #506d81;
+}
